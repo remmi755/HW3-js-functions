@@ -66,3 +66,16 @@ function isSmaller(a, b) {
     return (a < b) ;
 }
 console.log(isSmaller(5, -1));
+
+console.log('-----------------------#pow')
+
+function pow (x, n) {
+    let sum = 1;
+    let i = 1
+    while (n >= i) {
+        sum *= x;
+        i++;
+    }
+    return console.log(sum);
+}
+pow(5, 3);
