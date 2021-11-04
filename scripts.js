@@ -78,4 +78,22 @@ function pow (x, n) {
     }
     return console.log(sum);
 }
-pow(5, 3);
+pow(10, 3);
+
+function ucFirst(str) {
+    let strNew ;
+    if (str[0] !== str[0].toUpperCase) {
+        strNew = str[0].toUpperCase() + str.slice(1);
+
+    } else {
+        strNew = str;
+    }
+    console.log(strNew);
+}
+ucFirst('panya');
+function ucFirst1 (str) {
+    if (!str) return str;
+
+    return str[0].toUpperCase() + str.slice(1);
+}
+console.log(ucFirst1('nas'));
